@@ -35,8 +35,8 @@ a{
 }
 html, body {
   max-width: 100%;
-  overflow-x: hidden;
-
+ overflow: -moz-scrollbars-vertical;
+    overflow-x: hidden;
 }
 #intro >p{
   font-size: 2vw;
