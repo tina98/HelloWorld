@@ -6,3 +6,7 @@ body, p {
   color: #258cd1;
   text-align: center;
 }
+#navbar >li{
+  display: inline-block;
+  list-style-type: none;
+}
