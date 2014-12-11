@@ -1,8 +1,7 @@
 $(document).ready(function(){
-  if($(window).width() >= 1000){
+
     $(window).scroll(function () {
-            
-      if ($(window).scrollTop()>=80){
+      if ($(window).scrollTop()>=$(window).height()-$("#navbar").height()){
         $('#navbar').css("top","0vw")
           .css("position","fixed")
           .css("background-color","rgba(20, 23, 23, 0.7)");
@@ -13,5 +12,5 @@ $(document).ready(function(){
           .css("background-color","rgba(20, 23, 23, 1)");
       }  
     });
-  }
+  
 })
