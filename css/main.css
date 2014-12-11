@@ -26,9 +26,16 @@ a{
   padding: 0vw 1vw;
   font-size: 3vw;
 }
+#navbar {
+  background-color: #141717;
+}
 h2 {
   font-family: 'Lobster', cursive;
   margin: 0vw;
   padding: 1vw;
   
+}
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
 }
