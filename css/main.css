@@ -13,6 +13,7 @@ body, p {
   color: #258cd1;
   text-align: center;
   font-size: 2vw;
+  margin: 0;
 }
 a{
   text-decoration: none;
@@ -24,4 +25,10 @@ a{
   list-style-type: none;
   padding: 0vw 1vw;
   font-size: 3vw;
+}
+h2 {
+  font-family: 'Lobster', cursive;
+  margin: 0vw;
+  padding: 1vw;
+  
 }
