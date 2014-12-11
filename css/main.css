@@ -7,7 +7,7 @@ body, p {
   text-align: center;
 }
 a{
-  text-decoration: bold;
+  text-decoration: none;
 }
 #navbar >li{
   display: inline-block;
