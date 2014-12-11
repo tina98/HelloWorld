@@ -33,12 +33,6 @@ a{
 #navbar {
   background-color: #141717;
 }
-h2 {
-  font-family: 'Lobster', cursive;
-  margin: 0vw;
-  padding: 1vw;
-  
-}
 html, body {
   max-width: 100%;
   overflow-x: hidden;
@@ -59,7 +53,7 @@ hr {
   font-size: 4vw;
   color: white;
 }
-/*.info>p {*/
-/*  padding-left: 7vw;*/
-/*  text-align: left;*/
-/*}*/
+.info>p {
+  padding-left: 7vw;
+  text-align: left;
+}
