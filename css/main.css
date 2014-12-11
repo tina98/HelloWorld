@@ -3,4 +3,6 @@ h1 {
 }
 body, p {
   font-family: 'Lato', sans-serif;
+  color: #258cd1;
+  text-align: center;
 }
