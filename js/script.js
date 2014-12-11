@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
     $(window).scroll(function () {
-      if ($(window).scrollTop()>=$(window).height()){
+      if ($(window).scrollTop()>=80){
           $(p).html($(window).height());
         $('#navbar').css("top","0vw")
           .css("position","fixed")
