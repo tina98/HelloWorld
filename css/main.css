@@ -23,8 +23,8 @@ a{
 #navbar >li{
   display: inline-block;
   list-style-type: none;
-  padding: 0vw 1vw;
-  font-size: 3vw;
+  padding: 1vw 3vw;
+  font-size: 2vw;
 }
 #navbar {
   background-color: #141717;
