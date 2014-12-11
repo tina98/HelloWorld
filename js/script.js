@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
     $(window).scroll(function () {
-      if ($(window).scrollTop()>=($(window).height()-$("#navbar").height())){
+      if ($(window).scrollTop()>=($(window).height()-$("#navbar").height()*2)){
         //   $('p').html($(window).height());
         //   $('h1').html($(window).scrollTop());
         $('#navbar').css("top","0vw")
