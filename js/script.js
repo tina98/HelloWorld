@@ -2,14 +2,14 @@ $(document).ready(function(){
 
     $(window).scroll(function () {
       if ($(window).scrollTop()>=($(window).height()-$("#navbar").height()*2)){
-        //   $('p').html($(window).height());
-        //   $('h1').html($(window).scrollTop());
+
         $('#navbar').css("top","0vw")
           .css("position","fixed")
-          .css("background-color","rgba(20, 23, 23, 0.7)");
+          .css("background-color","rgba(20, 23, 23, 0.7)")
+          .css("width", "100%");
             
       } else {
-        $('#navbar')/*.css("top","7vw")*/
+        $('#navbar')
           .css("position","static")
           .css("background-color","rgba(20, 23, 23, 1)");
       }  
