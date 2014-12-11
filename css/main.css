@@ -27,6 +27,9 @@ a{
   font-size: 2vw;
   color: #258cd1;
 }
+#navbar >li a{
+  color: #258cd1;
+}
 #navbar {
   background-color: #141717;
 }
