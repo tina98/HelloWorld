@@ -32,16 +32,11 @@ function initialize() {
     animation: google.maps.Animation.DROP,
     position: mi
   });
-  google.maps.event.addListener(marker,'click',bounce);
+  marker1.setAnimation(google.maps.Animation.BOUNCE);
+  marker2.setAnimation(google.maps.Animation.BOUNCE);
+  marker3.setAnimation(google.maps.Animation.BOUNCE);
 }
 
-function bounce(){
-  if (marker.getAnimation()!=null){
-    marker.setAnimation(null);
-  } else {
-    marker.setAnimation(google.maps.Animation.BOUNCE);
-  }
-}
 
 function m1(){
   coord=new google.maps.LatLng(42.6142, -82.98402);
