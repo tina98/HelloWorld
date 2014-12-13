@@ -83,15 +83,16 @@ span{
   cursor: pointer;
 }
 .circle{
-  display: block;
+  display: inline-block;
   width: 9vw;
   height: 9vw;
   border-radius: 9vw;
   border: 0.5vw double rgba(20, 23, 23, 0.701961);
   text-align: center;
   line-height: 7.5vw;
-  margin-left: 9vw;
+  margin: 0 3vw
 }
 .circle:hover{
   background-color: #D3E8F6;
+  cursor: pointer;
 }
