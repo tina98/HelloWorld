@@ -2,7 +2,7 @@ var coord=new google.maps.LatLng(42.6142, -82.984093);
 
 var irc=new google.maps.LatLng(42.613643,-82.984093);
 var google=new google.maps.LatLng(42.279966,-83.743831);
-var mi=new google.maps.LatLng(42.276238, -83.741310);
+var michigan=new google.maps.LatLng(42.276238, -83.741310);
 var parliament = new google.maps.LatLng(59.327383, 18.06747);
 var marker1;
 var marker2;
@@ -30,7 +30,7 @@ function initialize() {
   marker3=new google.maps.Marker({
     map: map,
     animation: google.maps.Animation.DROP,
-    position: mi
+    position: michigan
   });
   marker1.setAnimation(google.maps.Animation.BOUNCE);
   marker2.setAnimation(google.maps.Animation.BOUNCE);
