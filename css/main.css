@@ -32,6 +32,7 @@ a{
 }
 #navbar {
   background-color: #141717;
+  z-index: 999;
 }
 html, body {
   max-width: 100%;
@@ -73,6 +74,8 @@ hr {
 }
 #loc{
   position: absolute;
-  background-color: red;
-  z-index:50;
+  background-color: #D3E8F6;
+  z-index: 5;
+  top: 2vw;
+  left: 16vw;
 }
