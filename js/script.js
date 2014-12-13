@@ -17,7 +17,8 @@ $(document).ready(function(){
     
     
     $("#navbar>a").click(function(){
-        $('html, body').animate({scrollTop:$('when').position().top}, 'slow');
+        var link=$(this).attr();
+        $('html, body').animate({scrollTop:$(link).position().top}, 'slow');
     })
   
 })
