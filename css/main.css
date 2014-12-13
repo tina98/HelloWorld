@@ -66,3 +66,9 @@ hr {
 .info:nth-child(odd){
   background-color: #E1E7EA;
 }
+#map{
+  position: relative;
+}
+#loc{
+  position: absolute;
+}
