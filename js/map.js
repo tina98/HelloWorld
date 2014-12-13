@@ -1,4 +1,14 @@
 var coord=new google.maps.LatLng(42.6142, -82.984093);
+
+var irc=new google.maps.LatLng(42.613643,-82.984093);
+var google=new google.maps.LatLng(42.279966,-83.743831);
+var mi=new google.maps.LatLng(42.276238, -83.741310);
+
+var marker1;
+var marker2;
+var marker3;
+
+
 function initialize() {
   
   var mapO={
@@ -6,7 +16,33 @@ function initialize() {
     zoom: 18
   };
   var map = new google.maps.Map(document.getElementById('map'), mapO);
+  
+  marker1=new google.maps.Marker({
+    map:map,
+    animation: google.maps.Animation.DROP,
+    position: irc
+  });
+  marker2=new google.maps.Marker({
+    map:map,
+    animation: google.maps.Animation.DROP,
+    position: google
+  });
+  marker3=new google.maps.Marker({
+    map: map,
+    animation: google.maps.Animation.DROP,
+    position: mi
+  });
+  google.maps.event.addListener(marker,'click',bounce);
 }
+
+function bounce(){
+  if (marker.getAnimation()!=null){
+    marker.setAnimation(null);
+  } else {
+    marker.setAnimation(google.maps.Animation.BOUNCE);
+  }
+}
+
 function m1(){
   coord=new google.maps.LatLng(42.6142, -82.98402);
   document.getElementById("mapAdd").innerHTML="Instructional Resource Center (14201 Canal Rd., Sterling Heights MI, 48313)";
