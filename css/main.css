@@ -78,5 +78,7 @@ hr {
   top: 2vw;
   left: 13vw;
   width: 73vw;
-
+}
+span{
+  cursor: pointer;
 }
