@@ -14,5 +14,10 @@ $(document).ready(function(){
           .css("background-color","rgba(20, 23, 23, 1)");
       }  
     });
+    
+    
+    $("#navbar>a").click(function(){
+        $('html, body').animate({scrollTop:$('when').position().top}, 'slow');
+    })
   
 })
