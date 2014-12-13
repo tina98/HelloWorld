@@ -16,7 +16,7 @@ $(document).ready(function(){
     });
     
     
-    $("#navbar >li").click(function(){
+    $("#navbar >li a").click(function(){
         $("#navbar").css("background-color", "white");
         event.preventDefault();
         // var link=$(this).attr();
