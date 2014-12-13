@@ -16,7 +16,7 @@ $(document).ready(function(){
     });
     
     
-    $("#navbar>li a").click(function(){
+    $("#navbar >li").click(function(){
         $("#navbar").css("background-color", "white");
         // var link=$(this).attr();
         // $('html, body').animate({scrollTop:$(link).position().top}, 'slow');
