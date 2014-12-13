@@ -60,3 +60,9 @@ hr {
 .info{
   padding: 2vw 0;
 }
+.info:nth-child(even){
+  background-color: #D3E8F6;
+}
+.info:nth-child(odd){
+  background-color: #E1E7EA;
+}
