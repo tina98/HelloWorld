@@ -3,7 +3,7 @@ var coord=new google.maps.LatLng(42.6142, -82.984093);
 var irc=new google.maps.LatLng(42.613643,-82.984093);
 var googleAA=new google.maps.LatLng(42.279966,-83.743831);
 var michigan=new google.maps.LatLng(42.276238, -83.741310);
-// var parliament = new google.maps.LatLng(59.327383, 18.06747);
+//exact lat-.00057
 var marker1;
 var marker2;
 var marker3;
