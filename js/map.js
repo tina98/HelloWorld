@@ -17,7 +17,7 @@ function m1(){
 function m2(){
   coord=new google.maps.LatLng(42.2805, -83.743831);
   // document.getElementById("mapAdd").innerHTML("Google Ann Arbor (201 South Division Street #500, Ann Arbor, MI 48104)");
-  document.getElementById("mapI").innerHTML("Transporation WILL be provided to Google Ann Arbor for Day 5 (tentative)");
+  document.getElementById("mapI").innerHTML("Transporation WILL be provided to Google Ann Arbor for Day 5");
   
   initialize();
 }
