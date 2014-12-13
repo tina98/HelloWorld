@@ -22,5 +22,8 @@ $(document).ready(function(){
         var link=$(this).attr("href");
         $('html, body').animate({scrollTop:$(link).position().top}, 'slow');
     });
+    
+    $("#map").attr("src", "https://www.google.com/maps/embed/v1/place?key=AIzaSyCN7HhPhiHSAbzE8Atkxtmek4hQ41MWsMo&q=Joan+C+Sergent+Instructional+Resource+Center,Sterling+Heights+Michigan");
+    
   
 })
