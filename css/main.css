@@ -96,3 +96,9 @@ span{
   background-color: #D3E8F6;
   cursor: pointer;
 }
+#days>.title{
+  font-size: 3vw;
+}
+#d2i, #d3i, #d4i, #d5i{
+  display: none;
+}
