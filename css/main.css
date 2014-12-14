@@ -127,7 +127,9 @@ span{
   background: rgba(37,140,209,0.7);
   z-index: 0;
 }
-
+li{
+  text-align: left;
+}
 
 #dList>li:first-child::before {
   display: none;
