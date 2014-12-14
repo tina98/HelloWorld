@@ -82,22 +82,9 @@ hr {
 span{
   cursor: pointer;
 }
-.circle{
-  display: inline-block;
-  width: 9vw;
-  height: 9vw;
-  border-radius: 9vw;
-  border: 0.5vw double rgba(20, 23, 23, 0.701961);
-  text-align: center;
-  line-height: 7.5vw;
-  margin: 0 3vw
-}
-.circle:hover{
-  background-color: #D3E8F6;
-  cursor: pointer;
-}
+
 #days>.title{
-  font-size: 3vw;
+  font-size: 2.5vw;
 }
 #d2i, #d3i, #d4i, #d5i{
   display: none;
