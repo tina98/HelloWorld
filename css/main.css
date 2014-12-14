@@ -91,11 +91,11 @@ span{
 }
 
 #dList>li {
-  width: 5vw;
-  height: 5vw;
+  width: 3vw;
+  height: 3vw;
   text-align: center;
-  line-height: 4vw;
-  border-radius: 5vw;
+  line-height: 3vw;
+  border-radius: 3vw;
   background: rgba(37,140,209,0.7);
   margin: 0 2vw;
   display: inline-block;
@@ -107,10 +107,10 @@ span{
 #dList>li::before{
   content: '';
   position: absolute;
-  top: 2vw;
+  top: 1.5vw;
   left: -4.5vw;
   width: 4.5vw;
-  height: .5vw;
+  height: .25vw;
   background: rgba(37,140,209,0.7);
   z-index: 0;
 }
