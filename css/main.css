@@ -129,6 +129,7 @@ span{
 }
 li{
   text-align: left;
+  padding-left: 7vw;
 }
 
 #dList>li:first-child::before {
