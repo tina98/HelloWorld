@@ -102,3 +102,44 @@ span{
 #d2i, #d3i, #d4i, #d5i{
   display: none;
 }
+
+#dList>li {
+  width: 2em;
+  height: 2em;
+  text-align: center;
+  line-height: 2em;
+  border-radius: 1em;
+  background: dodgerblue;
+  margin: 0 1em;
+  display: inline-block;
+  color: white;
+  position: relative;
+}
+
+#dList>li::before{
+  content: '';
+  position: absolute;
+  top: .9em;
+  left: -4em;
+  width: 4em;
+  height: .2em;
+  background: dodgerblue;
+  z-index: -1;
+}
+
+
+#dList>li:first-child::before {
+  display: none;
+}
+
+#dList>.active {
+  background: dodgerblue;
+}
+
+#dlist>.active ~ li {
+  background: lightblue;
+}
+
+.active ~ li::before {
+  background: lightblue;
+}
