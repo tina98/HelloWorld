@@ -23,27 +23,28 @@ $(document).ready(function(){
         $('html, body').animate({scrollTop:$(link).position().top}, 'slow');
     });
     
-    $(".circle").click(function(){
-        var cID=$(this);
-        $(".circle").css("background-color","");
-        $(cID).css("background-color", "#D3E8F6");
-        if (cID.is("#d1")){
+    $("#dList>li").click(function(){
+        var cID=$(this).text();
+        $("#dList>li").removeClass("active");
+        $(this).addClass("active");
+        
+        if (cID=="1"){
             $("#d1i").css("display","block");
             $("#d2i, #d3i, #d4i, #d5i").css("display", "none");
         }
-        if (cID.is("#d2")){
+        if (cID=="2"){
             $("#d2i").css("display","block");
             $("#d1i, #d3i, #d4i, #d5i").css("display", "none");
         }
-        if (cID.is("#d3")){
+        if (cID=="3"){
             $("#d3i").css("display","block");
             $("#d2i, #d1i, #d4i, #d5i").css("display", "none");
         }
-        if (cID.is("#d4")){
+        if (cID=="4"){
             $("#d4i").css("display","block");
             $("#d2i, #d3i, #d1i, #d5i").css("display", "none");
         }
-        if (cID.is("#d5")){
+        if (cID=="5"){
             $("#d5i").css("display","block");
             $("#d2i, #d3i, #d4i, #d1i").css("display", "none");
         }
