@@ -114,6 +114,7 @@ span{
   display: inline-block;
   color: white;
   position: relative;
+  cursor: pointer;
 }
 
 #dList>li::before{
