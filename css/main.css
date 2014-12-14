@@ -84,7 +84,7 @@ span{
 }
 
 #days>div>.title{
-  font-size: 2.5vw;
+  font-size: 3vw;
 }
 #d2i, #d3i, #d4i, #d5i{
   display: none;
@@ -116,7 +116,7 @@ span{
 }
 #days>div>ul>li{
   text-align: left;
-  padding-left: 7vw;
+  margin-left: 7vw;
 }
 
 #dList>li:first-child::before {
