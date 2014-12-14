@@ -122,8 +122,8 @@ span{
   top: 2vw;
   left: -5vw;
   width: 7vw;
-  height: .2em;
-  background: dodgerblue;
+  height: .5vw;
+  background: rgb(211,232,246);
   z-index: 0;
 }
 
