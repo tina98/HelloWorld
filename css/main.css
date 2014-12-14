@@ -127,7 +127,7 @@ span{
   background: rgba(37,140,209,0.7);
   z-index: 0;
 }
-li{
+#days>li{
   text-align: left;
   padding-left: 7vw;
 }
