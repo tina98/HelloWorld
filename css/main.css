@@ -83,7 +83,7 @@ span{
   cursor: pointer;
 }
 
-#days>.title{
+#days>div>.title{
   font-size: 2.5vw;
 }
 #d2i, #d3i, #d4i, #d5i{
@@ -114,7 +114,7 @@ span{
   background: rgba(37,140,209,0.7);
   z-index: 0;
 }
-#days>li{
+#days>div>ul>li{
   text-align: left;
   padding-left: 7vw;
 }
