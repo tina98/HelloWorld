@@ -13,13 +13,17 @@ $(document).ready(function(){
           .css("position","static")
           .css("background-color","rgba(20, 23, 23, 1)");
       }  
+      
+        if ($(window).scrollTop>=($("#why").position().top)){
+            $("p").css("color", "red");
+        }
     });
     
     $(window).scroll(function(){
-        if ($(window).scrollTop>=$("#why").position().top){
+        if ($(window).scrollTop>=($("#why").position().top)){
             $("p").css("color", "red");
         }
-    })
+    });
     
     
     $("#navbar >li a").click(function(){
