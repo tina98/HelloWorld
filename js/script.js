@@ -58,7 +58,7 @@ $(document).ready(function(){
     })
 });
 function numbers(num, id){
-    ({someValue: 0}).animate({someValue: num}, {
+    $({someValue: 0}).animate({someValue: num}, {
     	duration: 1000,
     	easing:'swing',
     	step: function() { 
