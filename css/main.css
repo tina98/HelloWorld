@@ -145,11 +145,13 @@ span{
   padding:0;
 }
 #why>ul>li{
-  list-style-type:none;
+  list-style-type: none;
   display: inline-block;
+  width: 28vw;
 }
 .number{
   font-family: "Lobster", cursive;
   font-size: 10vw;
+  color: #FFF;
 }
 
