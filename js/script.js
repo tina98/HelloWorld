@@ -14,13 +14,7 @@ $(document).ready(function(){
               .css("background-color","rgba(20, 23, 23, 1)");
         }  
       
-        if ($(window).scrollTop()>=($("#why").position().top)){
-            $("p").css("color", "red");
-        }
-    });
-    
-    $(window).scroll(function(){
-        if ($(window).scrollTop()>=($("#why").position().top)){
+        if ($(window).scrollTop()>=($("#why").position().top)-2){
             $("p").css("color", "red");
         }
     });
