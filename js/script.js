@@ -17,7 +17,6 @@ $(document).ready(function(){
     
     
     $("#navbar >li a").click(function(){
-        $("#navbar").css("background-color", "white");
         event.preventDefault();
         var link=$(this).attr("href");
         $('html, body').animate({scrollTop:$(link).position().top}, 'slow');
