@@ -15,7 +15,9 @@ $(document).ready(function(){
         }  
       
         if ($(window).scrollTop()>=($("#why").position().top)-2){
-            $("p").css("color", "red");
+            numbers(18, "#i1");
+            numbers(12, "#i2");
+            numbers(79, "#i3");
         }
     });
     
@@ -54,8 +56,13 @@ $(document).ready(function(){
             $("#d2i, #d3i, #d4i, #d1i").css("display", "none");
         }
     })
-    
-    // $("#map").attr("src", "https://www.google.com/maps/embed/v1/place?key=AIzaSyCN7HhPhiHSAbzE8Atkxtmek4hQ41MWsMo&q=Joan+C+Sergent+Instructional+Resource+Center,Sterling+Heights+Michigan");
-    
-  
-})
+});
+function numbers(num, id){
+    ({someValue: 0}).animate({someValue: num}, {
+    	duration: 1000,
+    	easing:'swing',
+    	step: function() { 
+    		$(id).text(Math.ceil(this.someValue) + "%");
+    	}
+    });
+}
