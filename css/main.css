@@ -154,4 +154,14 @@ span{
   font-size: 10vw;
   color: #FFF;
 }
-
+#quote{
+  font-size: 3vw;
+  color: white;
+}
+#person{
+  text-align: right;
+  padding-right: 7vw;
+}
+#source {
+  font-size: 1vw;
+}
