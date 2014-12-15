@@ -75,7 +75,7 @@ hr {
   position: absolute;
   background-color: #D3E8F6;
   z-index: 5;
-  top: 2vw;
+  top: 4vw;
   left: 13vw;
   width: 73vw;
 }
@@ -139,4 +139,8 @@ span{
 }
 #why:after{
   background-color: rgb(0,0,0,0.8);
+}
+
+#where{
+  padding:0;
 }
