@@ -1,5 +1,6 @@
 $(document).ready(function(){
 
+    var flagN=true;
     $(window).scroll(function () {
         if ($(window).scrollTop()>=($(window).height()-$("#navbar").height()*2)){
         
@@ -15,9 +16,13 @@ $(document).ready(function(){
         }  
       
         if ($(window).scrollTop()>=($("#why").position().top)-2){
-            numbers(18, "#i1");
-            numbers(12, "#i2");
-            numbers(79, "#i3");
+            if (flagN){
+                numbers(18, "#i1");
+                numbers(12, "#i2");
+                numbers(79, "#i3");
+                flagN=false;
+                
+            }
         }
     });
     
