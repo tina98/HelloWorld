@@ -135,5 +135,5 @@ span{
   background: rgb(37,140,209);
 }
 #why{
-  background-image: url("../img/intelChip.jpg") fixed;
+  background: url("../img/intelChip.jpg") fixed;
 }
