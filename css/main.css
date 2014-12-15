@@ -144,3 +144,12 @@ span{
 #where{
   padding:0;
 }
+#why>ul>li{
+  list-style-type:none;
+  display: inline-block;
+}
+.number{
+  font-family: "Lobster", cursive;
+  font-size: 10vw;
+}
+
