@@ -59,7 +59,7 @@ $(document).ready(function(){
 });
 function numbers(num, id){
     $({someValue: 0}).animate({someValue: num}, {
-    	duration: 1000,
+    	duration: 1500,
     	easing:'swing',
     	step: function() { 
     		$(id).text(Math.ceil(this.someValue) + "%");
