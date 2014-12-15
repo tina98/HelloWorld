@@ -15,12 +15,20 @@ $(document).ready(function(){
       }  
     });
     
+    $(window).scroll(function(){
+        if ($(window).scrollTop>=$("#why").position().top){
+            $("p").css("color", "red");
+        }
+    })
+    
     
     $("#navbar >li a").click(function(){
         event.preventDefault();
         var link=$(this).attr("href");
         $('html, body').animate({scrollTop:$(link).position().top}, 'slow');
     });
+    
+    
     
     $("#dList>li").click(function(){
         var cID=$(this).text();
