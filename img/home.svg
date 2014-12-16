@@ -6,3 +6,12 @@
   <rect id="svg_4" height="36.5" width="52.25" y="48.75" x="16.625" fill-opacity="0" stroke-linecap="null" stroke-linejoin="null" stroke="#000000" fill="#000000"/>
  </g>
 </svg>
+
+<svg width="640" height="480" xmlns="http://www.w3.org/2000/svg">
+ <g>
+  <title>Layer 1</title>
+  <circle fill="none" stroke="#000000" stroke-linejoin="null" stroke-linecap="null" fill-opacity="0" cx="168" cy="241" r="55.9017" id="svg_5"/>
+  <path fill="none" stroke="#000000" stroke-linejoin="null" stroke-linecap="null" fill-opacity="0" d="m97.545,420.302l69.715,-122l69.714,122l-139.429,0z" id="svg_6"/>
+  <path transform="rotate(-10 381.3045349121094,128.3361358642577) " id="svg_7" d="m211.37836,236.56985l69.18478,-77.17023l0,0c-73.298,-23.29111 -94.2117,-67.14896 -48.32135,-101.33035c45.89658,-34.18141 143.57248,-47.49944 225.66226,-30.7674c82.09381,16.72516 121.73444,58.03112 91.58112,95.41959c-30.15686,37.38165 -120.2392,58.62433 -208.10754,49.06512l-129.99927,64.78326z" fill-opacity="0" stroke-linecap="null" stroke-linejoin="null" stroke="#000000" fill="none"/>
+ </g>
+</svg>
