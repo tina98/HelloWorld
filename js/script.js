@@ -25,7 +25,10 @@ $(document).ready(function(){
             }
         }
     });
-    
+    $("#navbar>img").click(function(){
+       event.preventDefault();
+       $("html, body").animate({scrollTop:0}, "slow");
+    });
     
     $("#navbar >li a").click(function(){
         event.preventDefault();
