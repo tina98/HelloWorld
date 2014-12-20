@@ -173,3 +173,7 @@ span{
 #source {
   font-size: 1vw;
 }
+
+#apply>#button{
+  font-size:15vw;
+}
