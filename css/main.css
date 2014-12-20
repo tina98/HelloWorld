@@ -241,7 +241,7 @@ span{
   width: 31vw;
   padding-left:0;
   text-align:center;
-  display:none;
+  display: inline-block;
 }
 #p1.sU{
   display: inline-block;
@@ -251,7 +251,7 @@ span{
   top: -20vw;
   text-align: center;
   padding-left:0;
-  display:none;
+  display: inline-block;
 }
 #p2.sU{
   display:inline-block;
