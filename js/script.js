@@ -27,10 +27,10 @@ $(document).ready(function(){
             }
         }
         
-        if ($(window).scrollTop()>=$("#who").position().top)-2){
+        if ($(window).scrollTop()>=($("#who").position().top)-2){
             $("#p1").show("slide", {direction: "left"}, "slow");
             $("#p2").show("slide", {direction: "right"}, "slow");
-        });
+        }
     });
     $("#up").click(function(){
        event.preventDefault();
