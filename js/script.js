@@ -39,7 +39,7 @@ $(document).ready(function(){
     });
     
     $("#logoW>img").click(function(){
-        if ($(this).is("#girl")){
+        if ($(this).is("#light")){
             $("#w2, #w3").hide();
             $("#w1").fadeIn();
             $("#logoW").removeClass();
