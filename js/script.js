@@ -27,7 +27,7 @@ $(document).ready(function(){
             }
         }
     });
-    $("#homeIcon").click(function(){
+    $("#up").click(function(){
        event.preventDefault();
        $("html, body").animate({scrollTop:0}, "slow");
     });
