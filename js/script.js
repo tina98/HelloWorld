@@ -28,8 +28,8 @@ $(document).ready(function(){
         }
         
         if ($(window).scrollTop()>=($("#who").position().top)-2){
-            $("#p1").show("slide", {direction: "left"}, "slow");
-            $("#p2").show("slide", {direction: "right"}, "slow");
+            $("#p1").fadeIn();
+            $("#p2").fadeIn();
         }
     });
     $("#up").click(function(){
