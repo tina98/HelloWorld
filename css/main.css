@@ -203,14 +203,17 @@ span{
 
 #logoW:before {
   bottom: -16px;
-  left: 125px;
+  left: 16%;
   border-top-color: #000;
   border-width: 16px;
 }
 
 #logoW:after {
   bottom: -15px;
-  left: 126px;
+  left: 16.05%;
   border-top-color: #D3E8F6;
   border-width: 15px;
+}
+#w2, #w3{
+  display:none;
 }
