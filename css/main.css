@@ -184,30 +184,32 @@ span{
   padding: 0vw 3vw;
   height: 6vw;
 }
+#logoW{
+  position: relative;
+  border-bottom: 1px solid #000;
+  width: 45vw;
+  margin: auto;
+}
 #logoW:before, #logoW:after {
-    content: "";
-    position: absolute;
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-color: transparent;
-    border-bottom: 0;
-  }
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-color: transparent;
+  border-bottom: 0;
+}
 
-  /* Stroke */
-  #logoW:before {
-    bottom: -16px;
-    left: 21px;
+#logoW:before {
+  bottom: -16px;
+  left: 125px;
+  border-top-color: #000;
+  border-width: 16px;
+}
 
-    /* If 1px darken stroke slightly */
-    border-top-color: #777;
-    border-width: 16px;
-  }
-
-  /* Fill */
-  #logoW:after {
-    bottom: -15px;
-    left: 22px;
-    border-top-color: #f3f3f3;
-    border-width: 15px;
-  }
+#logoW:after {
+  bottom: -15px;
+  left: 126px;
+  border-top-color: #D3E8F6;
+  border-width: 15px;
+}
