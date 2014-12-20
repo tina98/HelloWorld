@@ -25,7 +25,7 @@ $(document).ready(function(){
             }
         }
     });
-    $("#navbar>img").click(function(){
+    $("#homeIcon").click(function(){
        event.preventDefault();
        $("html, body").animate({scrollTop:0}, "slow");
     });
