@@ -242,9 +242,7 @@ span{
   padding-left:0;
   text-align:center;
   display: inline-block;
-}
-#p1.sU{
-  display: inline-block;
+  color:"";
 }
 #p2{
   position: relative;
@@ -252,9 +250,7 @@ span{
   text-align: center;
   padding-left:0;
   display: inline-block;
-}
-#p2.sU{
-  display:inline-block;
+  color:"";
 }
 #girlW{
   display: inline-block;
