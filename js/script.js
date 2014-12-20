@@ -47,7 +47,7 @@ $(document).ready(function(){
         
         if (cID=="1"){
             $("#d1i").fadeIn/*css("display","block")*/;
-            $("#d2i, #d3i, #d4i, #d5i").hide();/*css("display", "none");*/
+            $("#d2i, #d3i, #d4i, #d5i").css("display", "none");
         }
         if (cID=="2"){
             $("#d2i").css("display","block");
