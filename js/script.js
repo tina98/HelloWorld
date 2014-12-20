@@ -49,7 +49,7 @@ $(document).ready(function(){
             $("#w1, #w3").hide();
             $("#w2").fadeIn();
             $("#logoW").removeClass();
-            $("logoW").addClass("l2");
+            $("#logoW").addClass("l2");
             // $("#logoW:before").css("left", "47%");
             // $("#logoW:after").css("left", "47.05%");
         // }
