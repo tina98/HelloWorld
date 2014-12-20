@@ -214,6 +214,24 @@ span{
   border-top-color: #D3E8F6;
   border-width: 15px;
 }
+#logoW.l3:after{
+  left: 78.05%;
+}
+#logoW.l3:before{
+  left:78%;
+}
+#logoW.l1:before{
+  left: 16%;
+}
+#logoW.l1:after{
+  left:16.05%;
+}
+#logoW.l2:before{
+  left:47%;
+}
+#logoW.l2:after{
+  left:47.05%;
+}
 #w2, #w3{
   display:none;
 }
