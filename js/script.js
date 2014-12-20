@@ -28,7 +28,7 @@ $(document).ready(function(){
         }
         
         if ($(window).scrollTop()>=($("#who").position().top)-2){
-            $("#p1, #p2").addClass("sU");
+            $("#p1, #p2").addClass("sU").fadeIn();
             // $("#p2").fadeIn();
         }
     });
