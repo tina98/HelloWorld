@@ -237,11 +237,16 @@ span{
 }
 #p1{
   position: relative;
-  top: -28vw;
+  top: -16vw;
   width: 30vw;
+  display: inline-block;
 }
 #p2{
   position: relative;
-  top: -34vw;
-  right: -55vw;
+  top: -20vw;
+  display: inline-block;
+  text-align: center;
+}
+#girlW{
+  display: inline-block;
 }
