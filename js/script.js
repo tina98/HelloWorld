@@ -46,8 +46,8 @@ $(document).ready(function(){
         $(this).addClass("active");
         
         if (cID=="1"){
-            $("#d1i").css("display","block");
-            $("#d2i, #d3i, #d4i, #d5i").css("display", "none");
+            $("#d1i").fadeIn/*css("display","block")*/;
+            $("#d2i, #d3i, #d4i, #d5i").fadeOut();/*css("display", "none");*/
         }
         if (cID=="2"){
             $("#d2i").css("display","block");
