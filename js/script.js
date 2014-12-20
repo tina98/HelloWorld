@@ -1,3 +1,4 @@
+$("#p1, #p2").hide();
 $(document).ready(function(){
     var hght=$("#navbar").height();
     $(".wrapper").height(hght);
@@ -28,7 +29,7 @@ $(document).ready(function(){
         }
         
         if ($(window).scrollTop()>=($("#who").position().top)-2){
-            $("#p1, #p2").addClass("sU").fadeIn();
+            $("#p1, #p2").fadeIn();
             // $("#p2").fadeIn();
         }
     });
