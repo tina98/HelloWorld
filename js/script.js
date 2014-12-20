@@ -1,4 +1,4 @@
-$("#p1, #p2").hide();
+
 $(document).ready(function(){
     var hght=$("#navbar").height();
     $(".wrapper").height(hght);
