@@ -235,3 +235,13 @@ span{
 #w2, #w3{
   display:none;
 }
+#p1{
+  position: relative;
+  top: -28vw;
+  width: 30vw;
+}
+#p2{
+  position: relative;
+  top: -34vw;
+  right: -55vw;
+}
