@@ -1,19 +1,19 @@
 $(document).ready(function(){
 
     var flagN=true;
-    // $(window).scroll(function () {
-    //     if ($(window).scrollTop()>=($(window).height()-$("#navbar").height()*2)){
+    $(window).scroll(function () {
+        if ($(window).scrollTop()>=($(window).height()-$("#navbar").height()*2)){
         
-    //         $('#navbar').css("top","0vw")
-    //           .css("position","fixed")
-    //           .css("background-color","rgba(20, 23, 23, 0.7)")
-    //           .css("width", "100%");
+            $('#navbar').css("top","0vw")
+              .css("position","fixed")
+              .css("background-color","rgba(20, 23, 23, 0.7)")
+              .css("width", "100%");
                 
-    //     } else {
-    //         $('#navbar')
-    //           .css("position","static")
-    //           .css("background-color","rgba(20, 23, 23, 1)");
-    //     }  
+        } else {
+            $('#navbar')
+              .css("position","static")
+              .css("background-color","rgba(20, 23, 23, 1)");
+        }  
       
     //     if ($(window).scrollTop()>=($("#why").position().top)-2){
     //         if (flagN){
@@ -24,7 +24,7 @@ $(document).ready(function(){
                 
     //         }
     //     }
-    // });
+    });
     $("#homeIcon").click(function(){
        event.preventDefault();
        $("html, body").animate({scrollTop:0}, "slow");
