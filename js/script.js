@@ -6,8 +6,8 @@ $(document).ready(function(){
         
             $('#navbar').css("top","0vw");
             //   .css("position","fixed")
-            //   .css("background-color","rgba(20, 23, 23, 0.7)")
-            //   .css("width", "100%");
+              .css("background-color","rgba(20, 23, 23, 0.7)")
+              .css("width", "100%");
                 
         } else {
             $('#navbar')
