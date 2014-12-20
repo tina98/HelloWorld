@@ -187,11 +187,13 @@ span{
 #whatLine{
   width: 70%;
 }
-#whatLine:after{
+#whatLine:after {
+    border-bottom:15px solid #000;
+    border-left:10px solid transparent;
+    border-right:10px solid transparent;
+    width:0;
+    height:0;
 
-  border-bottom:15px solid #000;
-  border-left:10px solid transparent;
-  border-right:10px solid transparent;
-  width:0;
-  height:0;
+    content:"";
+    display:block;
 }
