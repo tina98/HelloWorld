@@ -24,9 +24,12 @@ a{
 #navbar >li{
   display: inline-block;
   list-style-type: none;
-  padding: 1vw 3vw;
+  padding: 1vw 2vw;
   font-size: 2vw;
   color: #258cd1;
+}
+#navbar>img{
+  height:3vw;
 }
 #navbar >li a{
   color: #258cd1;
