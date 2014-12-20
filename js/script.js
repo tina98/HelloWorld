@@ -39,19 +39,19 @@ $(document).ready(function(){
     });
     
     $("#logoW>img").click(function(){
-        if ($(this).is("#girl"){
+        if ($(this).is("#girl")){
             $("#w2, #w3").hide();
             $("w1").fadeIn();
             $("#logoW:before").css("left", 16%)
             $("#logoW:after").css("left", 16.05%)
         }
-        if ($(this).is("#topic"){
+        if ($(this).is("#topic")){
             $("#w1, #w3").hide();
             $("w2").fadeIn();
             $("#logoW:before").css("left", 47%)
             $("#logoW:after").css("left", 47.05%)
         }
-        if ($(this).is("#project"){
+        if ($(this).is("#project")){
             $("#w2, #w1").hide();
             $("w3").fadeIn();
             $("#logoW:before").css("left", 78%)
