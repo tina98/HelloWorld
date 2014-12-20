@@ -6,7 +6,9 @@ h1 {
   font-size: 10vw;
   padding-top: 9vw;
   margin: 0;
-  
+}
+.wrapper{
+  margin: 1em 0em;
 }
 body, p {
   font-family: 'Roboto', sans-serif;
