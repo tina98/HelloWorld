@@ -180,3 +180,7 @@ span{
 #apply>#button{
   font-size:15vw;
 }
+#what>img{
+  padding: 0vw 3vw;
+  height: 6vw;
+}
