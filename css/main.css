@@ -181,7 +181,8 @@ span{
   font-size:15vw;
 }
 #logoW>img{
-  padding: 0vw 3vw;
+  margin: 0vw 3vw;
+  cursor: pointer;
   height: 6vw;
 }
 #logoW{
