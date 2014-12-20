@@ -50,20 +50,20 @@ $(document).ready(function(){
             $("#d2i, #d3i, #d4i, #d5i").hide();
         }
         if (cID=="2"){
-            $("#d2i").css("display","block");
-            $("#d1i, #d3i, #d4i, #d5i").css("display", "none");
+            $("#d2i").fadeIn();
+            $("#d1i, #d3i, #d4i, #d5i").hide();
         }
         if (cID=="3"){
-            $("#d3i").css("display","block");
-            $("#d2i, #d1i, #d4i, #d5i").css("display", "none");
+            $("#d3i").fadeIn();
+            $("#d2i, #d1i, #d4i, #d5i").hide();
         }
         if (cID=="4"){
-            $("#d4i").css("display","block");
-            $("#d2i, #d3i, #d1i, #d5i").css("display", "none");
+            $("#d4i").fadeIn();
+            $("#d2i, #d3i, #d1i, #d5i").hide();
         }
         if (cID=="5"){
-            $("#d5i").css("display","block");
-            $("#d2i, #d3i, #d4i, #d1i").css("display", "none");
+            $("#d5i").fadeIn();
+            $("#d2i, #d3i, #d4i, #d1i").hide();
         }
     })
 });
