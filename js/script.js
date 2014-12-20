@@ -1,11 +1,10 @@
 $(document).ready(function(){
+    var hght=$("#navbar").height();
+    $(".wrapper").height(hght);
 
     var flagN=true;
     $(window).scroll(function () {
         if ($(window).scrollTop()>=($(window).height()-$("#navbar").height()*2)){
-        
-            var hght=$("#navbar").height();
-            $("#wrapper").height(hght);
             
             $('#navbar').css("top","0vw")
               .css("position","fixed")
