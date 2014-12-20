@@ -42,8 +42,8 @@ $(document).ready(function(){
         if ($(this).is("#girl")){
             $("#w2, #w3").hide();
             $("w1").fadeIn();
-            $("#logoW:before").css("left", 16%);
-            $("#logoW:after").css("left", 16.05%);
+            $("#logoW:before").css("left", "16%");
+            $("#logoW:after").css("left", '16.05%');
         }
         if ($(this).is("#topic")){
             $("#w1, #w3").hide();
