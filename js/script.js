@@ -29,7 +29,7 @@ $(document).ready(function(){
         }
         
         if ($(window).scrollTop()>=($("#who").position().top)-2){
-            $("#p1, #p2").fadeIn();
+            $("#p1, #p2").animate({color:#258cd1}, "slow");
             // $("#p2").fadeIn();
         }
     });
