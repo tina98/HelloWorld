@@ -242,7 +242,7 @@ span{
   padding-left:0;
   text-align:center;
   display: inline-block;
-  color:"";
+  opacity:0;
 }
 #p2{
   position: relative;
@@ -250,7 +250,7 @@ span{
   text-align: center;
   padding-left:0;
   display: inline-block;
-  color:"";
+  opacity:0;
 }
 #girlW{
   display: inline-block;
