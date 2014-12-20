@@ -184,3 +184,30 @@ span{
   padding: 0vw 3vw;
   height: 6vw;
 }
+#logoW:before, #logoW:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: transparent;
+    border-bottom: 0;
+  }
+
+  /* Stroke */
+  #logoW:before {
+    bottom: -16px;
+    left: 21px;
+
+    /* If 1px darken stroke slightly */
+    border-top-color: #777;
+    border-width: 16px;
+  }
+
+  /* Fill */
+  #logoW:after {
+    bottom: -15px;
+    left: 22px;
+    border-top-color: #f3f3f3;
+    border-width: 15px;
+  }
