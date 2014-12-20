@@ -48,8 +48,8 @@ $(document).ready(function(){
         // if ($(this).is("#topic")){
             $("#w1, #w3").hide();
             $("#w2").fadeIn();
-            $("#logoW:before").css("left", 47%);
-            $("#logoW:after").css("left", 47.05%);
+            $("#logoW:before").css("left", "47%");
+            $("#logoW:after").css("left", "47.05%");
         // }
         // if ($(this).is("#project")){
         //     $("#w2, #w1").hide();
