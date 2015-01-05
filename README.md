@@ -1,4 +1,4 @@
 ProjectUntitled
 ===============
 
-Middle school day camp for girls
+Computer science day camp for middle school girls
