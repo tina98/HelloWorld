@@ -195,6 +195,9 @@ span{
   display: inline-block;
   width: 28vw;
 }
+#why>ul>li>p{
+  color:#D0D0D0;
+}
 .number{
   font-family: 'Roboto', sans-serif;
   font-size: 10vw;
