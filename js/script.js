@@ -12,7 +12,7 @@ $(document).ready(function(){
         descripts[desC%3].fadeIn(500);
     },5000);
     var flagN=true;
-    $("#robot").mouseover(function(){
+    $("#robot").click(function(){
        $("#what").css("background-image","url(../img/finch.jpg)"); 
     });
     
