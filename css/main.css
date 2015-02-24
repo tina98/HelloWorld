@@ -2,7 +2,7 @@
   height:41vw;
 }
 h1 {
-  font-family: 'Lobster', cursive;
+  font-family: 'Roboto', sans-serif;
   font-size: 5vw;
 }
 #mainT{
@@ -15,7 +15,8 @@ h1 {
 width: 100%;  
 }
 body, p {
-  font-family: 'Roboto', sans-serif;
+  
+  font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   color: #258cd1;
   text-align: center;
@@ -77,7 +78,7 @@ hr {
   background-color: #258cd1;
   padding: 1vw;
   border-radius: 1vw;
-  font-family: 'Lobster', cursive;
+  font-family: 'Roboto', sans-serif;
   font-size: 4vw;
   color: white;
   padding-top:0;
@@ -181,7 +182,7 @@ span{
   width: 28vw;
 }
 .number{
-  font-family: "Lobster", cursive;
+  font-family: 'Roboto', sans-serif;
   font-size: 10vw;
   color: #FFF;
 }
