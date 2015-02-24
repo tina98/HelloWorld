@@ -58,9 +58,12 @@ html, body {
 }
 #intro #overlay{
   position: absolute;
-  top:-7vw;
-  left:11vw;
-  z-index:1;
+  top: 0vw;
+  left: 0;
+  z-index: 1;
+  width: 100vw;
+  height: 48vw;
+  background-color: rgba(0,0,0,0.8);
 }
 hr {
   width: 15vw;
