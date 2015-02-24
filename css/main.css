@@ -116,7 +116,7 @@ hr {
 }
 #loc{
   position: absolute;
-  background-color: #D3E8F6;
+  background-color: #white;
   z-index: 5;
   top: 4vw;
   left: 13vw;
@@ -201,7 +201,7 @@ span{
 #why>ul>li>.number {
   font-family: 'Roboto', sans-serif;
   font-size: 10vw;
-  color: #258cd1
+  color: #258cd1;
 {
 #quote{
   font-size: 3vw;
