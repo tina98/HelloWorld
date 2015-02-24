@@ -5,6 +5,12 @@ width: 100%;
 margin-top: -4vw;
 position: absolute;
 }
+#loading{
+  position:fixed;
+  height:100vw;
+  background-color:black;
+  width:100%;
+}
 #des2,#des3{
   display:none;
 }
