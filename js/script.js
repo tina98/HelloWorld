@@ -7,9 +7,9 @@ $(document).ready(function(){
 
     var desC=0;
     setInterval(function(){
-        descripts[desC%3].fadeOut();
+        descripts[desC%2].fadeOut();
         desC++;
-        descripts[desC%3].fadeIn();
+        descripts[desC%2].fadeIn();
     },5000);
     var flagN=true;
     $(window).scroll(function () {
