@@ -177,6 +177,9 @@ span{
 .active ~ li::before {
   background: rgb(37,140,209);
 }
+#what{
+  background:url("../img/robotWires.jpg") fixed;
+}
 #why{
   background: url("../img/intelChip.jpg") fixed;
 }
@@ -198,11 +201,11 @@ span{
 #why>ul>li>p{
   color:#D0D0D0;
 }
-.number{
+#why>ul>li>.number {
   font-family: 'Roboto', sans-serif;
   font-size: 10vw;
-  color: #FFF;
-}
+  color: #258cd1
+{
 #quote{
   font-size: 3vw;
   color: white;
