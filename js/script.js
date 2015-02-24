@@ -7,7 +7,7 @@ $(document).ready(function(){
 
     var desC=0;
     setInterval(function(){
-        descripts[desC%2].fadeOut(300);
+        descripts[desC%2].fadeOut(300).delay(400);
         desC++;
         descripts[desC%2].delay(100).fadeIn(500);
     },5000);
