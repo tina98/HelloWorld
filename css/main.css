@@ -11,7 +11,8 @@ h1 {
   margin: 0;
 }
 .wrapper{
-  margin: 1em 0em;  
+  position: absolute;
+width: 100%;  
 }
 body, p {
   font-family: 'Roboto', sans-serif;
