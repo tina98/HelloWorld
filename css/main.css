@@ -52,11 +52,14 @@ html, body {
 #intro video{
   position:relative;
   z-index:0;
+  width:100vw;
+  margin-top:-8vw;
+  
 }
 #intro #overlay{
   position: absolute;
-  top:0;
-  left:0;
+  top:-7vw;
+  left:11vw;
   z-index:1;
 }
 hr {
