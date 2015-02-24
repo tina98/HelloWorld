@@ -201,6 +201,10 @@ span{
 }
 #what{
   background:url("../img/gracehopper.jpg") fixed no-repeat center center;
+  -moz-background-size: cover;
+-webkit-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
 }
 #why{
   background: url("../img/intelChip.jpg") fixed;
