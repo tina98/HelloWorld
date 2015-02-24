@@ -13,7 +13,7 @@ $(document).ready(function(){
     },5000);
     var flagN=true;
     $("#robot").click(function(){
-       $("#what").css("background-image","url(http://t2.gstatic.com/images?q=tbn:ANd9GcSdt8NP0acebdVziwjfFPq-kiPrZOXU8htxEPvE2TIKpTeO9F7T)"); 
+       $("#what").css("background-image","url(img/finch.jpg)"); 
     });
     
     $("#website").mouseover(function(){
