@@ -9,9 +9,9 @@ $(document).ready(function(){
 
     var desC=0;
     setInterval(function(){
-        descripts[desC%2].animate({opacity:'toggle', top:'40px'}, 500);
+        descripts[desC%2].fadeOut(500);
         desC++;
-        descripts[desC%2].animate({opacity:'toggle', top:'40px'}, 500);
+        descripts[desC%2].fadeIn(500);
     },5000);
     var flagN=true;
     $(window).scroll(function () {
