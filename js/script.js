@@ -1,7 +1,5 @@
 
 $(document).ready(function(){
-    $("#des1,#des2,#des3").hide();
-    $("#des1").show();
     
     var hght=$("#navbar").height();
     var descripts=[$("#des1"),$("#des2"),$("des3")];
