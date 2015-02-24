@@ -1,6 +1,9 @@
 #des1,#des2,#des3{
   display:none;
 }
+#des{
+  height:10vw;
+}
 #what>p{
   color:black;
 }
