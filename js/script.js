@@ -5,7 +5,7 @@ $(document).ready(function(){
     var descripts=[$("#des1"),$("#des2"),$("des3")];
     $(".wrapper").height(hght);
 
-    var desC=-1;
+    var desC=0;
     setInterval(function(){
         descripts[desC%3].fadeOut();
         desC++;
