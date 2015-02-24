@@ -1,5 +1,5 @@
 
-$(document).ready(function(){
+$(window).load(function(){
     
     var hght=$("#navbar").height();
     var descripts=[$("#des1"),$("#des2"),$("#des3")];
