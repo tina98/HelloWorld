@@ -10,12 +10,10 @@
 }
 #des>p{
   position:absolute;
+  color:white;
 }
 #des{
   height:10vw;
-}
-#what>p{
-  color:white;
 }
 #overlayText{
   height:41vw;
