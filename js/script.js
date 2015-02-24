@@ -12,6 +12,22 @@ $(document).ready(function(){
         descripts[desC%3].fadeIn(500);
     },5000);
     var flagN=true;
+    $("#robot").mouseover(function(){
+       $("#what").css("background-image","url(../img/finch.jpg)"); 
+    });
+    
+    $("#website").mouseover(function(){
+       $("#what").css("background-image","url(../img/webDev.jpg)"); 
+    });
+    
+    $("#game").mouseover(function(){
+       $("#what").css("background-image","url(../img/scratch.jpg)"); 
+    });
+    
+    $("#app").mouseover(function(){
+       $("#what").css("background-image","url(../img/appInventor.jpg)"); 
+    });
+    
     $(window).scroll(function () {
         if ($(window).scrollTop()>=($(window).height()-$("#navbar").height()*2)){
             
