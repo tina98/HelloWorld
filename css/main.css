@@ -177,9 +177,6 @@ span{
 .active ~ li::before {
   background: rgb(37,140,209);
 }
-#what{
-  background:url("../img/robotWires.jpg") fixed;
-}
 #why{
   background: url("../img/intelChip.jpg") fixed;
 }
