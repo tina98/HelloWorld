@@ -1,5 +1,6 @@
 
 $(document).ready(function(){
+    $("#des1,#des2,#des3").hide().$("#des1").show();
     
     var hght=$("#navbar").height();
     var descripts=[$("#des1"),$("#des2"),$("des3")];
@@ -7,9 +8,9 @@ $(document).ready(function(){
 
     var desC=0;
     setInterval(function(){
-        descripts[desC%2].fadeOut(300).delay(400);
+        descripts[desC%2].animate({opacity:'toggle', top:'40px'}, 500);
         desC++;
-        descripts[desC%2].delay(100).fadeIn(500);
+        descripts[desC%2].animate({opacity:'toggle', top:'40px'}, 500);
     },5000);
     var flagN=true;
     $(window).scroll(function () {
