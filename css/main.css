@@ -199,6 +199,9 @@ span{
 .active ~ li::before {
   background: rgb(37,140,209);
 }
+#what{
+  background:url("../img/gracehopper.jpg") fixed no-repeat;
+}
 #why{
   background: url("../img/intelChip.jpg") fixed;
 }
