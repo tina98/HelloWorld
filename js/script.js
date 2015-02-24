@@ -15,19 +15,25 @@ $(document).ready(function(){
     $("#robot").mouseover(function(){
         $("#whatOverlay").animate({opacity:1},200);
         $("#what").css("background-image","url(img/finch.jpg)"); 
-        $("#whatOverlay").animate({opacity:0.8},200);
+        $("#whatOverlay").animate({opacity:0.8},1000);
     });
     
     $("#website").mouseover(function(){
+        $("#whatOverlay").animate({opacity:1},200);
        $("#what").css("background-image","url(img/webDev.jpg)"); 
+       $("#whatOverlay").animate({opacity:0.8},1000);
     });
     
     $("#game").mouseover(function(){
+        $("#whatOverlay").animate({opacity:1},200);
        $("#what").css("background-image","url(img/scratch.jpg)"); 
+       $("#whatOverlay").animate({opacity:0.8},1000);
     });
     
     $("#app").mouseover(function(){
+        $("#whatOverlay").animate({opacity:1},200);
        $("#what").css("background-image","url(img/appInventor.jpg)"); 
+       $("#whatOverlay").animate({opacity:0.8},1000);
     });
     
     $(window).scroll(function () {
