@@ -200,7 +200,7 @@ span{
   background: rgb(37,140,209);
 }
 #what{
-  background:url("../img/gracehopper.jpg") fixed no-repeat;
+  background:url("../img/gracehopper.jpg") fixed no-repeat center center;
 }
 #why{
   background: url("../img/intelChip.jpg") fixed;
