@@ -9,8 +9,12 @@ position: absolute;
   display:none;
 }
 #des>p{
-  position:absolute;
-  color:white;
+position: absolute;
+color: white;
+padding: 0 12vw;
+/* margin-left: auto; */
+/* left: auto; */
+margin-left: -3vw;
 }
 #des{
   height:10vw;
