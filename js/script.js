@@ -14,7 +14,10 @@ $(document).ready(function(){
                 
         } else {
             $('#navbar')
-              .css("position","static")
+              .css("position","absolute")
+              .css("margin-top","-9vw")
+              .css("width:","100%")
+              .css("z-index","2")
               .css("background-color","rgba(20, 23, 23, 1)");
         }  
       
