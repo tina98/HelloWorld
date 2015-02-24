@@ -12,20 +12,22 @@ $(document).ready(function(){
         descripts[desC%3].fadeIn(500);
     },5000);
     var flagN=true;
-    $("#robot").click(function(){
-       $("#what").css("background-image","url(img/finch.jpg)"); 
+    $("#robot").mouseover(function(){
+        $("#whatOverlay").animate({opacity:1},200);
+        $("#what").css("background-image","url(img/finch.jpg)"); 
+        $("#whatOverlay").animate({opacity:0.8},200);
     });
     
     $("#website").mouseover(function(){
-       $("#what").css("background-image","url(../img/webDev.jpg)"); 
+       $("#what").css("background-image","url(img/webDev.jpg)"); 
     });
     
     $("#game").mouseover(function(){
-       $("#what").css("background-image","url(../img/scratch.jpg)"); 
+       $("#what").css("background-image","url(img/scratch.jpg)"); 
     });
     
     $("#app").mouseover(function(){
-       $("#what").css("background-image","url(../img/appInventor.jpg)"); 
+       $("#what").css("background-image","url(img/appInventor.jpg)"); 
     });
     
     $(window).scroll(function () {
