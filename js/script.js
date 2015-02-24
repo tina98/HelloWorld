@@ -2,7 +2,7 @@
 $(document).ready(function(){
     
     var hght=$("#navbar").height();
-    var descripts=[$("#des1"),$("#des2"),$("des3")];
+    var descripts=[$("#des1"),$("#des2"),$("#des3")];
     $(".wrapper").height(hght);
 
     var desC=0;
