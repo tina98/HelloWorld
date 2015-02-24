@@ -116,7 +116,7 @@ hr {
 }
 #loc{
   position: absolute;
-  background-color: #white;
+  background-color: white;
   z-index: 5;
   top: 4vw;
   left: 13vw;
@@ -124,6 +124,11 @@ hr {
 }
 span{
   cursor: pointer;
+}
+#mapOverlay{
+  height:49vw;
+  width:100%;
+  background-color:rgba(0,0,0,0);
 }
 
 #days>div>.title{
