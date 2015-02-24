@@ -13,27 +13,19 @@ $(window).load(function(){
     },5000);
     var flagN=true;
     $("#robot").mouseover(function(){
-        $("#whatOverlay").animate({opacity:1},200);
         $("#what").css("background-image","url(img/finch.jpg)"); 
-        $("#whatOverlay").animate({opacity:0.8},200);
     });
     
     $("#website").mouseover(function(){
-        $("#whatOverlay").animate({opacity:1},200);
        $("#what").css("background-image","url(img/webDev.jpg)"); 
-       $("#whatOverlay").animate({opacity:0.8},200);
     });
     
     $("#game").mouseover(function(){
-        $("#whatOverlay").animate({opacity:1},200);
        $("#what").css("background-image","url(img/scratch.jpg)"); 
-       $("#whatOverlay").animate({opacity:0.8},200);
     });
     
     $("#app").mouseover(function(){
-        $("#whatOverlay").animate({opacity:1},200);
        $("#what").css("background-image","url(img/appInventor.jpg)"); 
-       $("#whatOverlay").animate({opacity:0.8},200);
     });
     
     $(window).scroll(function () {
