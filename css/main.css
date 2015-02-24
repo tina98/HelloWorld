@@ -1,6 +1,15 @@
 #overlayText{
   height:41vw;
 }
+#why >p{
+  color:#D0D0D0;
+}
+#intro>p{
+  color:#258cd1;
+}
+#days>ul>li{
+  color:black;
+}
 h1 {
   font-family: 'Roboto', sans-serif;
   font-size: 3.5vw;
