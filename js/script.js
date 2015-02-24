@@ -7,9 +7,10 @@ $(document).ready(function(){
 
     var desC=0;
     setInterval(function(){
-        descripts[desC%2].fadeOut();
+        descripts[desC%2].fadeOut(100);
         desC++;
-        descripts[desC%2].fadeIn();
+        delay(10)
+        descripts[desC%2].fadeIn(100);
     },5000);
     var flagN=true;
     $(window).scroll(function () {
