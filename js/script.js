@@ -1,8 +1,16 @@
 
 $(document).ready(function(){
+    
     var hght=$("#navbar").height();
+    var descripts=[$("#des1"),$("#des2"),$("des3")];
     $(".wrapper").height(hght);
 
+    var desC=-1;
+    setInterval(function(){
+        descripts[des%3].fadeOut();
+        desC++;
+        descripts[desC%3].fadeIn();
+    },5000);
     var flagN=true;
     $(window).scroll(function () {
         if ($(window).scrollTop()>=($(window).height()-$("#navbar").height()*2)){
