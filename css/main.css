@@ -4,6 +4,7 @@
 h1 {
   font-family: 'Roboto', sans-serif;
   font-size: 5vw;
+  font-weight:200;
 }
 #mainT{
   font-size: 10vw;
@@ -17,7 +18,7 @@ width: 100%;
 body, p {
   
   font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
+  font-weight: 100;
   color: #258cd1;
   text-align: center;
   font-size: 2vw;
@@ -26,7 +27,7 @@ body, p {
 a{
   text-decoration: none;
   color: #bc62ae;
-  font-weight: 400;
+  font-weight: 200;
 }
 #navbar >li{
   display: inline-block;
