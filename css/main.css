@@ -8,7 +8,11 @@ h1 {
   margin: 0;
 }
 .wrapper{
-  margin: 1em 0em;
+  position: absolute;
+  height: 59px;
+  margin-top: -9vw;
+  width: 100%;
+  z-index: 2;
 }
 body, p {
   font-family: 'Roboto', sans-serif;
