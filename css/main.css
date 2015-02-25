@@ -124,7 +124,7 @@ body, p {
   font-size: 2vw;
   margin: 0;
 }
-a{
+a,span{
   text-decoration: none;
   color: #bc62ae;
   font-weight: 200;
