@@ -20,6 +20,9 @@ position: absolute;
 #team>div,#teamBio>div{
   height: 10vw;
 }
+.tBio>h3, .tBio>p{
+  margin:0;
+}
 #team,#teamBio{
   width: 52vw;
   height: 28vw;
