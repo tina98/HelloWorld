@@ -27,9 +27,9 @@ position: absolute;
   color:white;
 }
 .tBio:hover,#uBio:hover{
-    -webkit-opacity: 1;
-  -moz-opacity: 1;
-  opacity: 1;
+    -webkit-opacity: 0.85;
+  -moz-opacity: 0.85;
+  opacity: 0.85;
 }
 
 #youPic >img,#uBio{
