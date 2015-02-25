@@ -11,6 +11,9 @@ position: absolute;
   height: 30vw;
   margin: 0;
 }
+.tBio{
+  display:inline;
+}
 #youPic >img,#uBio{
   position: relative;
   height: 100%;
