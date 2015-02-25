@@ -5,10 +5,24 @@ width: 100%;
 margin-top: -4vw;
 position: absolute;
 }
-#youPic >img{
-  
+#youPic{
+  position: absolute;
+width: 50%;
+height: 28vw;
+margin: 0;
 }
-#team>img{
+#youPic >img{
+  position: relative;
+height: 100%;
+width: 100%;
+margin-left: -4vw;
+}
+#team{
+  width: 50%;
+height: 28vw;
+margin-left: 46vw;
+}
+#team>div>img{
   
 }
 #loading{
