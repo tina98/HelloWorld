@@ -23,6 +23,9 @@ position: absolute;
   -o-transition: all 250ms ease;
   transition: all 250ms ease;
 }
+.tBio>p{
+  color:white;
+}
 .tBio:hover{
     -webkit-opacity: 1;
   -moz-opacity: 1;
