@@ -11,7 +11,7 @@ position: absolute;
   height: 30vw;
   margin: 0;
 }
-.tBio{
+.tBio,#uBio{
   display:inline-block;
   background-color:black;
   -webkit-opacity: 0;
@@ -23,10 +23,10 @@ position: absolute;
   -o-transition: all 250ms ease;
   transition: all 250ms ease;
 }
-.tBio>p{
+.tBio>p,#uBio>p{
   color:white;
 }
-.tBio:hover{
+.tBio:hover,#uBio:hover{
     -webkit-opacity: 1;
   -moz-opacity: 1;
   opacity: 1;
