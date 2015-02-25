@@ -5,28 +5,28 @@ width: 100%;
 margin-top: -4vw;
 position: absolute;
 }
-#youPic{
+#youPic,#youBio{
   position: absolute;
   width: 52vw;
   height: 30vw;
   margin: 0;
 }
-#youPic >img{
+#youPic >img,#uBio{
   position: relative;
   height: 100%;
   width: 100%;
   margin-left: -4vw;
 }
-#team>div{
+#team>div,#teamBio>div{
   height: 10vw;
 }
-#team{
+#team,#teamBio{
   width: 52vw;
   height: 28vw;
   position: absolute;
   margin-left: 48vw;
 }
-#team>div>img{
+#team>div>img,#tBio{
   position: relative;
   margin: 0;
   width: 17vw;
