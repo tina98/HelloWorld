@@ -1,4 +1,5 @@
-$("#hwLoad").animate({opacity:1},2000);
+
+$("#hwLoad").animate({opacity:1},500);
 $(window).load(function(){
     $("#loading").hide();
     $("#loadPics").hide();
