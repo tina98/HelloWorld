@@ -1,0 +1,33 @@
+body{
+	background-color:#FFFF99;
+}
+
+#nav{
+	font-family: 'Yanone Kaffeesatz', sans-serif;	
+}
+
+#baconlife{
+	text-align:center;
+		font-family: 'Pacifico', cursive;
+			background-color:#FF0000;
+				font-size:20;
+}
+
+#introduction{
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+		background-color:#FF9999;
+			font-size:20;
+}
+
+#next{
+	background-color:#FF0000;
+		font-family: 'Pacifico', cursive;
+			font-size:20;
+				text-align:center;
+}
+
+#background{
+	background-color:#FF9999;
+		font-family: 'Yanone Kaffeesatz', sans-serif;
+			font-size:20;
+}

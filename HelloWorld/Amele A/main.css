@@ -1,0 +1,16 @@
+#intro{
+	background-color:#B22222;
+	text-align:center;
+	
+}
+p{
+	font-size:30;
+}
+unordered list{
+	font-size:25;
+	background-color:#DC143C
+}
+ordered list{
+	font-size:25;
+	background-color:#F08080
+}

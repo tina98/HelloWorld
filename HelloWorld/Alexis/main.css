@@ -1,0 +1,26 @@
+#Intro{
+ background-color:#FFCCCC;
+ text-align:center;
+} 
+
+#Lists{
+ background-color:#E0E0E0;
+}
+body{
+ background-color:#E0E0E0;
+font-family: 'Indie Flower', cursive;
+ 
+}
+
+h1{
+font-family: 'Pacifico', cursive;
+}
+
+h2{
+font-family: 'Pacifico', cursive;
+}
+
+.daisy{
+	length:75;
+	width:100;
+}

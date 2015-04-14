@@ -1,0 +1,39 @@
+#Intro{
+	Background-color:black;
+	text-align:center;
+	
+}
+	
+.pic{
+	length:250;
+	width:250;
+}
+
+h1{
+                font-family: 'Lobster', cursive;
+ }
+
+body{ 
+	background-color:00BCFF;
+}
+
+#picture{
+	text-align:center;
+}
+                     
+#globe{
+	text-align:center;
+}
+
+.globe{
+	length:300
+	width:250
+}
+
+#facts{
+	text-align:left
+}
+
+h4{             
+	font-family: 'Indie Flower', cursive;	    
+}

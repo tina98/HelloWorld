@@ -1,0 +1,24 @@
+ <html>
+
+	<head>
+		<title> Natasha </title>
+	<link href="main.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+	<div id="intro">
+		<h1 style="color:pink">hello world!-natasha</h1><p></div> hello world! starting monnday i have been at an amazing experince called hello world! its a program for girls to learn more about the world of technology. you've heard of steve jobs, elon musk, and benjamin franklin. think about it closely what do all of them have in common. their men who were and still are famous for there great ideas tide along w/ tecnology. many women arent famous because af tecnology, and i hope on day to be one. the people who put and made this program also belive and support me too. they support that wwomen should know just as much tecnology as men.  </p> 
+	<a href="https://www.google.com"> link to google</a> <img src="http://www.wired.com/images_blogs/gamelife/2014/02/game-over.jpg">
+	<div id="unorderedlist">
+	<ul>
+	<li>megan</li>
+	<li>reagan</li>
+	</ul>
+	</div>
+	<div id="orderedlist">
+	<ol>
+	<li>dance</li>
+	<li>sleeping</li>
+	</ol>
+	</div>
+	</body>
+</html>
