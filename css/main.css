@@ -7,6 +7,7 @@ position: absolute;
 }
 #pBio{
   text-align:initial;
+  font-size:0;
 }
 h2{
   font-family: 'Roboto', sans-serif;
@@ -24,6 +25,9 @@ padding-top: 1vw;
   width: 103%;
   height: 30vw;
   margin: 0;
+}
+#p2015{
+  font-size:2vw;
 }
 .tBio,#uBio,#p2015{
   display:inline-block;
