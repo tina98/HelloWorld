@@ -22,7 +22,14 @@ padding-top: 1vw;
 }
 #youPic{
   background: url("../p2015/20150408_121921.jpg");
+  background-size:cover;
   margin-left:-4vw;
+}
+#words>p{
+  background-color: black;
+  width: 77vw;
+  margin-left: 12vw;
+  color: white;
 }
 #youPic,#youBio{
   position: absolute;
