@@ -22,7 +22,7 @@ padding-top: 1vw;
   height: 30vw;
   margin: 0;
 }
-.tBio,#uBio{
+.tBio,#uBio,#p2015{
   display:inline-block;
   background-color:black;
   -webkit-opacity: 0;
@@ -34,10 +34,10 @@ padding-top: 1vw;
   -o-transition: all 250ms ease;
   transition: all 250ms ease;
 }
-.tBio>p,#uBio>p{
+.tBio>p,#uBio>p,#p2015>p{
   color:white;
 }
-.tBio:hover,#uBio:hover{
+.tBio:hover,#uBio:hover,#p2015:hover{
     -webkit-opacity: 0.85;
   -moz-opacity: 0.85;
   opacity: 0.85;
@@ -52,7 +52,7 @@ padding-top: 1vw;
 #team>div,#teamBio>div, #girls>div, #pBio>div{
   height: 10vw;
 }
-.tBio>h3, .tBio>p, #p2015{
+.tBio>h3, .tBio>p, #p2015>h3, #p2015>a, #p2015>p{
   margin:0;
 }
 #team,#teamBio, #girls, #pBio{
