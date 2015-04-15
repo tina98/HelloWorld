@@ -5,6 +5,9 @@ width: 100%;
 margin-top: -4vw;
 position: absolute;
 }
+#pBio{
+  text-align:initial;
+}
 h2{
   font-family: 'Roboto', sans-serif;
 font-size: 3vw;
