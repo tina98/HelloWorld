@@ -49,19 +49,19 @@ padding-top: 1vw;
   width: 100%;
   margin-left: -4vw;
 }
-#team>div,#teamBio>div{
+#team>div,#teamBio>div, #girls>div, #pBio>div{
   height: 10vw;
 }
-.tBio>h3, .tBio>p{
+.tBio>h3, .tBio>p, #p2015{
   margin:0;
 }
-#team,#teamBio{
+#team,#teamBio, #girls, #pBio{
   width: 52vw;
   height: 28vw;
   position: absolute;
   margin-left: 48vw;
 }
-#team>div>img,.tBio{
+#team>div>img,#girls>div>img,.tBio, #p2015{
   position: relative;
   margin: 0;
   width: 17vw;
