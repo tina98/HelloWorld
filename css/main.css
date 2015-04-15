@@ -55,16 +55,16 @@ padding-top: 1vw;
 .tBio>h3, .tBio>p, #p2015>h3, #p2015>a, #p2015>p{
   margin:0;
 }
-#team,#teamBio, #girls, #pBio{
-  width: 52vw;
-  height: 28vw;
-  position: absolute;
-  margin-left: 48vw;
-}
+/*#team,#teamBio, #girls, #pBio{*/
+/*  width: 52vw;*/
+/*  height: 28vw;*/
+/*  position: absolute;*/
+/*  margin-left: 48vw;*/
+/*}*/
 #team>div>img,#girls>div>img,.tBio, #p2015{
-  position: relative;
+position: relative;
   margin: 0;
-  width: 17vw;
+  width: 14.1vw;
   height: 100%;
 }
 #loading{
