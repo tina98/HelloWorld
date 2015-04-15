@@ -58,7 +58,7 @@ padding-top: 1vw;
 #team,#teamBio, #girls, #pBio{
   /*width: 52vw;*/
   /*height: 28vw;*/
-  /*position: absolute;*/
+  position: absolute;
   /*margin-left: 48vw;*/
   padding-top:31vw;
 }
