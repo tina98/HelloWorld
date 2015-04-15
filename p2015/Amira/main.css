@@ -1,0 +1,22 @@
+#intro{
+       background-color:violet;
+       text-align:center;
+}
+
+#pics{
+      background-color:#FF01E7;
+}
+
+.pic{   
+      length:190;
+      width:200;
+}
+body{
+	background-color:#660033;
+}
+
+#all-about-me{
+	background-color:#CC99FF;
+	font-family:"Cookie", cursive;
+	font-size:25;
+}

@@ -1,0 +1,30 @@
+#Intro{
+     background-color:#99004C;
+     text-align:center;
+}
+
+#pics{
+     background-color:#04E4E4;
+text-align:left;
+
+}
+#pics2{
+background-color:#04E4E4;
+text-align:right;
+}
+
+#unorderedlist{
+     background-color:#03B2B2;
+}
+
+#orderedlist{
+     background-color:#007C7C;
+}
+
+#left{
+text-align:left;
+}
+
+#right{
+text-align:right;
+}

@@ -1,0 +1,45 @@
+#intro{
+	text-align:center;
+	background-color:#26E9C9;
+	font-family: 'Amatic SC', cursive;
+		
+}
+#unorderedlist{
+	text-align:center;
+	background-color:#53A7DF;
+	font-family: 'Amatic SC', cursive;
+	
+}
+.pic{
+	length:500;
+	width:500;
+}
+body{
+	text-align:center;
+	background-color:#A3E6F0;
+	
+}
+#link{
+	text-align:center;
+	font-family: 'Amatic SC', cursive;
+	
+}
+#body{
+	background-color:#53A7DF;
+	font-family: 'Amatic SC', cursive;
+	
+}
+#info{
+	background-color:#53A7DF;
+	font-family: 'Amatic SC', cursive;
+	
+}
+#link{
+	background-color:#26E9C9;
+	font-family: 'Amatic SC', cursive;
+}
+	
+#hobbies{
+	background-color:#26E9C9;
+	font-family: 'Amatic SC', cursive;
+}	

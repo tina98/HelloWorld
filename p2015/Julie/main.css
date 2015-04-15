@@ -1,0 +1,47 @@
+#intro{
+	background-color:#61FBFF;
+	test-align:center;
+	font-family: 'Anton', sans-serif;
+}
+
+
+#pictures{
+	background-color:#99FF33;
+	text-align:center;
+}
+
+
+#hobbies{
+	background-color:#BA6BFF;
+	font-family: 'Dosis', sans-serif;
+}
+
+#favorites{
+	background-color:#FF8881;
+	font-family: 'Dosis', sans-serif;
+}
+
+body{
+	background-color:#FFE4F6;
+}
+
+p{
+	font-size:20;
+	text-align:center;
+	font-family: 'Anton', sans-serif;
+}
+
+body{
+	font-size:20;
+	
+}
+
+.pic{
+	length:300;
+	width:400;
+}
+
+
+
+
+

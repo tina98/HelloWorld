@@ -1,0 +1,28 @@
+#intro{
+	background-color:green;
+	font-size:45;
+	text-align:center;
+}
+#links{
+	font-size:20;
+	background-color:#FFCCFF
+}
+#facts{
+	font-size:20;
+	background-color:#FFFF99;
+}
+.picglasses{
+	length:500;
+	width:450;
+}
+body{
+	font-family: 'Noticia Text', serif;
+}
+.picgrass{
+	length:500;
+	width:400;
+}
+#pamper{
+	font-size:20;
+	background-color:#F3C1F2
+}	
