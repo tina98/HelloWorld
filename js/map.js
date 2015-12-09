@@ -3,7 +3,7 @@ var coord=new google.maps.LatLng(42.6142, -82.984093);
 var irc=new google.maps.LatLng(42.613643,-82.984093);
 var googleAA=new google.maps.LatLng(42.279966,-83.743831);
 var michigan=new google.maps.LatLng(42.276238, -83.741310);
-var microsoft=new google.maps.LatLng(42.459570, -83.239894);
+var microsoft=new google.maps.LatLng(42.475922,-83.2441723);
 //exact lat-.00057
 var marker1;
 var marker2;
