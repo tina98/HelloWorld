@@ -68,7 +68,7 @@ function m3(){
   initialize();
 }
 function m4(){
-  coord=new google.maps.LatLng(42.460132, -83.495695);
+  coord=new google.maps.LatLng(42.4789094,-83.2476618);
   document.getElementById("mapAdd").innerHTML="Microsoft Technology Center (1000 Town Center Dr., Suite 1930, Southfield, MI 48075)";
   document.getElementById("mapI").innerHTML="Transporation WILL be provided to and from the Microsoft Technology Center for Day 2 (tentative)";
   
