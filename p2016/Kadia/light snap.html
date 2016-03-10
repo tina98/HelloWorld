@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!-- saved from url=(0092)http://localhost:22179/SnapOffline/snap.html#open:http://localhost:22179/FinchSnapBlocks.xml -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		
+		<title>Snap! Build Your Own Blocks. Beta</title>
+		<link rel="shortcut icon" href="http://localhost:22179/SnapOffline/favicon.ico">
+		<script type="text/javascript" src="./light snap_files/morphic.js"></script>
+		<script type="text/javascript" src="./light snap_files/widgets.js"></script>
+		<script type="text/javascript" src="./light snap_files/blocks.js"></script>
+		<script type="text/javascript" src="./light snap_files/threads.js"></script>
+		<script type="text/javascript" src="./light snap_files/objects.js"></script>
+		<script type="text/javascript" src="./light snap_files/gui.js"></script>
+		<script type="text/javascript" src="./light snap_files/paint.js"></script>
+		<script type="text/javascript" src="./light snap_files/lists.js"></script>
+		<script type="text/javascript" src="./light snap_files/byob.js"></script>
+		<script type="text/javascript" src="./light snap_files/xml.js"></script>
+		<script type="text/javascript" src="./light snap_files/store.js"></script>
+		<script type="text/javascript" src="./light snap_files/locale.js"></script>
+		<script type="text/javascript" src="./light snap_files/cloud.js"></script>
+		<script type="text/javascript" src="./light snap_files/sha512.js"></script>
+		<script type="text/javascript">
+			var world;
+			window.onload = function () {
+				world = new WorldMorph(document.getElementById('world'));
+                world.worldCanvas.focus();
+				new IDE_Morph().openIn(world);
+				setInterval(loop, 1);
+			};
+			function loop() {
+				world.doOneCycle();
+			}
+		</script>
+	</head>
+	<body style="margin: 0;">
+		<canvas id="world" tabindex="1" style="position: absolute;" width="1680" height="905">
+	
+
+</canvas></body></html>

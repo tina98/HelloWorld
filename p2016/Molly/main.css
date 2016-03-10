@@ -1,0 +1,29 @@
+
+
+
+#div1 {color:#000000;}
+#div1 {background-color:#00ffff;}
+#div2 {color:#000000;}
+#div2 {background-color:#00e6e6;}
+#div3 {color:#000000}
+#div3 {background-color:00cccc;}
+body
+   {background-color:#666699}
+body
+   {font-family: 'Kurale', serif;}
+#images
+    {overflow: hidden;
+     
+     position: relative;
+    
+   
+}
+#images img{
+  
+  
+  
+}
+#blue
+{height: 249px;
+ width: 250px;}
+
