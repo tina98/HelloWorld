@@ -1,11 +1,11 @@
-var coord=new google.maps.LatLng(42.614511,-82.984022);
+var coord=new google.maps.LatLng(42.614475,-82.984022);
 //42.613941,-82.984022
 var irc=new google.maps.LatLng(42.613941,-82.984022);
 var googleAA=new google.maps.LatLng(42.279966,-83.743831);
 var michigan=new google.maps.LatLng(42.276238, -83.741310);
 var microsoft=new google.maps.LatLng(42.475428, -83.243757);
 var gm=new google.maps.LatLng(42.5227, -83.03693);
-//exact lat-.00057
+//exact lat+0.000534
 var marker1;
 var marker2;
 var marker3;
@@ -54,7 +54,7 @@ function initialize() {
 
 
 function m1(){
-  coord=new google.maps.LatLng(42.614511,-82.984022);
+  coord=new google.maps.LatLng(42.614475,-82.984022);
   document.getElementById("mapAdd").innerHTML="Instructional Resource Center (14201 Canal Rd., Sterling Heights MI, 48313)";
   document.getElementById("mapI").innerHTML="Transporation will not be provided to the IRC for Days 1-5";
   
