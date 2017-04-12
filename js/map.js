@@ -1,4 +1,4 @@
-var coord=new google.maps.LatLng(42.613941,-82.984022);
+var coord=new google.maps.LatLng(42.613371,-82.984022);
 //42.613941,-82.984022
 var irc=new google.maps.LatLng(42.613941,-82.984022);
 var googleAA=new google.maps.LatLng(42.279966,-83.743831);
