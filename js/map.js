@@ -1,6 +1,6 @@
 var coord=new google.maps.LatLng(42.613941,-82.984022);
 //42.613941,-82.984022
-var irc=new google.maps.LatLng(42.613643,-82.984093);
+var irc=new google.maps.LatLng(42.613941,-82.984022);
 var googleAA=new google.maps.LatLng(42.279966,-83.743831);
 var michigan=new google.maps.LatLng(42.276238, -83.741310);
 var microsoft=new google.maps.LatLng(42.475428, -83.243757);
@@ -54,7 +54,7 @@ function initialize() {
 
 
 function m1(){
-  coord=new google.maps.LatLng(42.6142, -82.984093);
+  coord=new google.maps.LatLng(42.613941,-82.984022);
   document.getElementById("mapAdd").innerHTML="Instructional Resource Center (14201 Canal Rd., Sterling Heights MI, 48313)";
   document.getElementById("mapI").innerHTML="Transporation will not be provided to the IRC for Days 1-5";
   
@@ -76,7 +76,7 @@ function m3(){
 }
 function m4(){
   coord=new google.maps.LatLng(42.4764697,-83.244586);
-  document.getElementById("mapAdd").innerHTML="Microsoft Technology Center (1000 Town Center Dr., Suite 1930, Southfield, MI 48075)";
+  document.getElementById("mapAdd").innerHTML="Microsoft Technology Center (1000 Town Center Dr., Southfield, MI 48075)";
   document.getElementById("mapI").innerHTML="Transporation WILL be provided to the Microsoft Technology Center for Day 3";
   
   initialize();
