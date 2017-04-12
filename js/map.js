@@ -1,5 +1,5 @@
-var coord=new google.maps.LatLng(42.6142, -82.984093);
-
+var coord=new google.maps.LatLng(42.613941,-82.984022);
+//42.613941,-82.984022
 var irc=new google.maps.LatLng(42.613643,-82.984093);
 var googleAA=new google.maps.LatLng(42.279966,-83.743831);
 var michigan=new google.maps.LatLng(42.276238, -83.741310);
