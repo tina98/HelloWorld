@@ -4,7 +4,7 @@ var irc=new google.maps.LatLng(42.613941,-82.984022);
 var googleAA=new google.maps.LatLng(42.279966,-83.743831);
 var michigan=new google.maps.LatLng(42.276238, -83.741310);
 var microsoft=new google.maps.LatLng(42.475428, -83.243757);
-var gm=new google.maps.LatLng(42.5227, -83.03693);
+var gm=new google.maps.LatLng(42.516623,-83.042479);
 //exact lat+0.000534
 var marker1;
 var marker2;
@@ -75,14 +75,14 @@ function m3(){
   initialize();
 }
 function m4(){
-  coord=new google.maps.LatLng(42.4764697,-83.244586);
+  coord=new google.maps.LatLng(42.475962,-83.244586);
   document.getElementById("mapAdd").innerHTML="Microsoft Technology Center (1000 Town Center Dr., Southfield, MI 48075)";
   document.getElementById("mapI").innerHTML="Transporation WILL be provided to the Microsoft Technology Center for Day 3";
   
   initialize();
 }
 function m5(){
-  coord=new google.maps.LatLng(42.5227, -83.03693);
+  coord=new google.maps.LatLng(42.517157,-83.042479);
   document.getElementById("mapAdd").innerHTML="General Motors Tech Center (GM Tech Center Rd, Warren, MI 48092)";
   document.getElementById("mapI").innerHTML="Transporation WILL be provided back to the IRC for Day 3";
   
