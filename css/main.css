@@ -309,7 +309,7 @@ height: 19vw;
 #why{
   background: url("../img/intelChip.jpg") fixed;
 }
-#apply{
+#donate{
   background: url("../img/chip2.jpg") fixed;
 }
 #why:after{
@@ -344,7 +344,7 @@ height: 19vw;
   font-size: 1vw;
 }
 
-#apply>#button{
+#donate>#button{
   font-size:15vw;
 }
 #logoW>img{
