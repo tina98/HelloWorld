@@ -324,6 +324,11 @@ height: 19vw;
   display: inline-block;
   width: 28vw;
 }
+#donate>ul>li{
+ list-style-type: none;
+  display: inline-block;
+  width: 15vw
+}
 #why>ul>li>p{
   color:#D0D0D0;
 }
